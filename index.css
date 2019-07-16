@@ -27,6 +27,11 @@ a, h1, p {
     color: black !important;
 }
 
+.navbar-brand img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
 .goto {
     flex-wrap: wrap;
     text-align: right;
