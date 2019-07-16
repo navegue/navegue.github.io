@@ -1,3 +1,8 @@
+html {
+    margin: 0px !important;
+    background-color: black;
+}
+
 body {
     overflow-x: hidden;
     background-color: deepskyblue;
@@ -36,6 +41,11 @@ a, h1, p {
 }
 
 /* Início */
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
 .start {
     padding-left: 15px;
 }
@@ -127,5 +137,4 @@ a, h1, p {
 
 .copyright {
     margin-top: 10%;
-    padding-bottom: 1%;
 }
