@@ -1,0 +1,131 @@
+body {
+    overflow-x: hidden;
+    background-color: deepskyblue;
+}
+
+a, h1, p {
+    color: white;
+    text-decoration: none !important;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* Navbar */
+.navbar {
+    align-items: baseline;
+}
+
+.navbar a {
+    color: black !important;
+}
+
+.goto {
+    flex-wrap: wrap;
+    text-align: right;
+}
+
+@media screen and (max-width: 990px) {
+    .goto {text-align: left}
+}
+
+.goto a {
+    padding-right: 10%;
+}
+
+/* Início */
+.start {
+    padding-left: 15px;
+}
+
+.description {
+    width: 100%;
+    background-color: deepskyblue;
+    padding-top: 20%;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.description p {
+    font-size: 150%;
+    color: white;
+}
+
+.description img {
+    width: 10%;
+    height: 50px;
+}
+
+.boat {
+    padding-left: 0% !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .description {padding-top: 5%}
+    .boat {display: none;}
+}
+
+.boat img {
+    height: 100vh !important;
+}
+
+.award {
+    text-align: center;
+}
+
+.award a {
+    color: white !important;
+    text-decoration: none !important;
+    margin-top: 2%;
+    font-size: 80%;
+}
+
+/* Equipe */
+#team {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.title {
+    margin-bottom: 4%;
+}
+
+#team img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+
+}
+
+.person {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#team p {
+    margin-top: 1%;
+    font-size: 100%;
+}
+
+/* Parceiros */
+#partners {
+    background-color: black;
+    padding-top: 2%;
+}
+
+#partners h1 {
+    color: gray;
+    margin-bottom: 8%;
+}
+
+.copyright {
+    margin-top: 10%;
+    padding-bottom: 1%;
+}
