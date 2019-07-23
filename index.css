@@ -4,6 +4,7 @@ html {
 }
 
 body {
+    font-family: 'Cuprum';
     overflow-x: hidden;
     background-color: deepskyblue;
 }
@@ -30,6 +31,7 @@ a, h1, p {
 .navbar-brand img {
     max-width: 200px;
     max-height: 50px;
+    margin-right: 10%;
 }
 
 .goto {
