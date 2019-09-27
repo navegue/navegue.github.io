@@ -65,6 +65,7 @@ a, h1, p {
     padding-right: 8%;
     text-align: left;
     vertical-align: middle;
+    margin-bottom: 5%;
 }
 
 .description p {
@@ -90,6 +91,10 @@ a, h1, p {
     height: 100vh !important;
 }
 
+.gramado {
+    margin-left: 2% !important;
+}
+
 .award {
     text-align: center;
 }
@@ -103,11 +108,17 @@ a, h1, p {
 
 /* Equipe */
 #team {
+    background-color: white;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
+#team p {
+    color: deepskyblue;
+}
+
 .title {
+    color: deepskyblue;
     margin-bottom: 4%;
 }
 
