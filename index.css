@@ -69,7 +69,7 @@ a, h1, p {
 }
 
 .description p {
-    font-size: 150%;
+    font-size: 45px;
     color: white;
 }
 
@@ -91,34 +91,37 @@ a, h1, p {
     height: 100vh !important;
 }
 
-.gramado {
-    margin-left: 2% !important;
-}
-
-.award {
+/* Prêmios */
+.awards {
+    padding-top: 5%;
+    background-color: white;
     text-align: center;
+    padding-bottom: 5%;
 }
 
-.award a {
-    color: white !important;
+.awards h1 {
+    color: deepskyblue;
+}
+
+.awards a {
+    color: deepskyblue !important;
     text-decoration: none !important;
-    margin-top: 3%;
-    font-size: 80%;
+    font-size: 35px;
 }
 
 /* Equipe */
 #team {
-    background-color: white;
+    background-color: deepskyblue;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 #team p {
-    color: deepskyblue;
+    color: white;
 }
 
 .title {
-    color: deepskyblue;
+    color: white;
     margin-bottom: 4%;
 }
 
@@ -127,7 +130,7 @@ a, h1, p {
     max-height: 100px;
     border-radius: 50%;
     border-width: 5px;
-    border-color: white;
+    border-color: deepskyblue;
     border-style: solid;
 
 }
@@ -139,7 +142,7 @@ a, h1, p {
 
 #team p {
     margin-top: 1%;
-    font-size: 100%;
+    font-size: 20px;
 }
 
 /* Parceiros */
