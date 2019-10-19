@@ -73,11 +73,6 @@ a, h1, p {
     color: white;
 }
 
-.description img {
-    width: 10%;
-    height: 50px;
-}
-
 .boat {
     padding-left: 0% !important;
 }
@@ -107,23 +102,6 @@ a, h1, p {
     color: #54afe2 !important;
     text-decoration: none !important;
     font-size: 25px;
-}
-
-/* Contato */
-.contact {
-    background-color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-.contact img {
-    max-width: 50px;
-    max-height: 50px;
-    border-radius: 10px;
-}
-
-.contact a {
-    color: #54afe2;
 }
 
 /* Equipe */
@@ -162,6 +140,23 @@ a, h1, p {
 .person {
     margin-left: 2%;
     margin-right: 2%;
+}
+
+/* Contato */
+.contact {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contact img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 10px;
+}
+
+.contact a {
+    color: #54afe2;
 }
 
 /* Parceiros */
