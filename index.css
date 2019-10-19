@@ -6,7 +6,7 @@ html {
 body {
     font-family: 'Cuprum';
     overflow-x: hidden;
-    background-color: deepskyblue;
+    background-color: #54afe2;
 }
 
 a, h1, p {
@@ -59,7 +59,7 @@ a, h1, p {
 
 .description {
     width: 100%;
-    background-color: deepskyblue;
+    background-color: #54afe2;
     padding-top: 20%;
     padding-left: 8%;
     padding-right: 8%;
@@ -100,24 +100,48 @@ a, h1, p {
 }
 
 .awards h1 {
-    color: deepskyblue;
+    color: #54afe2;
 }
 
 .awards a {
-    color: deepskyblue !important;
+    color: #54afe2 !important;
     text-decoration: none !important;
     font-size: 25px;
 }
 
+/* Contato */
+.contact {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contact img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 10px;
+}
+
+.contact a {
+    color: #54afe2;
+}
+
 /* Equipe */
 #team {
-    background-color: deepskyblue;
+    background-color: #54afe2;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 #team p {
     color: white;
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+.title-blue {
+    color: #54afe2;
+    margin-bottom: 4%;
 }
 
 .title {
@@ -138,11 +162,6 @@ a, h1, p {
 .person {
     margin-left: 2%;
     margin-right: 2%;
-}
-
-#team p {
-    margin-top: 1%;
-    font-size: 20px;
 }
 
 /* Parceiros */
