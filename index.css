@@ -19,32 +19,22 @@ a, h1, p {
     padding-right: 0px;
 }
 
-/* Navbar */
-.navbar {
-    align-items: baseline;
+/* Introdução */
+.intro {
+    background-color: #54afe2;
+    color: white;
+    margin-left: 3%;
 }
 
-.navbar a {
-    color: black !important;
+.intro img {
+    max-width: 80%;
+    height: 100px;
 }
 
-.navbar-brand img {
-    max-width: 200px;
-    max-height: 50px;
-    margin-right: 10%;
-}
-
-.goto {
-    flex-wrap: wrap;
-    text-align: right;
-}
-
-@media screen and (max-width: 990px) {
-    .goto {text-align: left}
-}
-
-.goto a {
-    padding-right: 10%;
+.intro h1 {
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size: 120px;
 }
 
 /* Início */
@@ -53,19 +43,15 @@ a, h1, p {
     margin-right: 0px !important;
 }
 
-.start {
-    padding-left: 15px;
-}
-
 .description {
     width: 100%;
     background-color: #54afe2;
-    padding-top: 20%;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
     text-align: left;
     vertical-align: middle;
     margin-bottom: 5%;
+    margin-left: 4%;
 }
 
 .description p {
@@ -73,8 +59,9 @@ a, h1, p {
     color: white;
 }
 
-.boat {
-    padding-left: 0% !important;
+.boat img {
+    margin-top: -25%;
+    margin-left: -30%;
 }
 
 @media screen and (max-width: 1024px) {
