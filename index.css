@@ -96,6 +96,10 @@ a, h1, p {
     .boat {display: none;}
 }
 
+@media screen and (max-height: 500px) {
+    .boat {display: none;}
+}
+
 .boat img {
     height: 100vh !important;
 }
