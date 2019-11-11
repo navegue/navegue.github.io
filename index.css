@@ -107,6 +107,10 @@ a, h1, p {
     .boat {display: none;}
 }
 
+@media screen and (min-width: 1380px) {
+    .description {margin-top: 2%;}
+}
+
 /* Prêmios */
 .awards {
     padding-top: 5%;
