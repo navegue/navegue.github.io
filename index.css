@@ -76,6 +76,7 @@ a, h1, p {
 .boat img {
     margin-top: -10%;
     margin-left: -10%;
+    width: 100%;
     height: 60vh;
 }
 
