@@ -113,6 +113,7 @@ a, h1, p {
 
 /* Sobre */
 .about {
+    padding-top: 15%;
     background-color: #54afe2;
 }
 
@@ -122,6 +123,20 @@ a, h1, p {
 
 .about p {
     font-size: 25px;
+}
+
+.about-two-p {
+    margin-top: 25%;
+}
+
+.about-two-img {
+    width: 30vw !important;
+    height: 75vh;
+}
+
+.three {
+    padding-top: 0%;
+    padding-bottom: 5%;
 }
 
 /* Parceiros */
