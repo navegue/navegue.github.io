@@ -123,20 +123,26 @@ a, h1, p {
 
 .about p {
     font-size: 25px;
+    padding-left: 25%;
 }
 
-.about-two-p {
+.about.two p {
     margin-top: 25%;
+    padding-left: 0px;
 }
 
 .about-two-img {
     width: 30vw !important;
-    height: 75vh;
+    max-height: 75vh;
 }
 
 .three {
-    padding-top: 0%;
+    padding-top: 0px;
     padding-bottom: 5%;
+}
+
+.about.three p {
+    padding-left: 0px;
 }
 
 /* Parceiros */
