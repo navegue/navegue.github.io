@@ -111,6 +111,19 @@ a, h1, p {
     .description {margin-top: 2%;}
 }
 
+/* Sobre */
+.about {
+    background-color: #54afe2;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about p {
+    font-size: 25px;
+}
+
 /* Parceiros */
 #partners {
     background-color: white;
