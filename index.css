@@ -131,6 +131,10 @@ a, h1, p {
     padding-left: 0px;
 }
 
+@media screen and (max-width: 767px) {
+    .align-two {text-align: center;}
+}
+
 .about-two-img {
     width: 30vw !important;
     max-height: 75vh;
