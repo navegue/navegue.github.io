@@ -149,19 +149,6 @@ a, h1, p {
     padding-left: 0px;
 }
 
-/* Parceiros */
-#partners {
-    background-color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-#partners img {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    height: 50px;
-}
-
 /* Prêmios */
 .awards {
     padding-top: 5%;
@@ -183,4 +170,18 @@ a, h1, p {
 .title {
     color: white;
     margin-bottom: 4%;
+}
+
+/* Parceiros */
+#partners {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#partners img {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 50px;
+    margin-top: 1%;
 }
