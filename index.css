@@ -28,8 +28,7 @@ a, h1, p {
 
 .intro img {
     margin-top: 5%;
-    max-width: 80%;
-    height: 100px;
+    max-width: 95%;
 }
 
 .intro h1 {
@@ -47,14 +46,14 @@ a, h1, p {
 .description {
     width: 100%;
     background-color: #54afe2;
-    padding: 20vh 0;
     margin-bottom: 5%;
 }
 
 .description p {
+    padding: 25vh 0;
     font-size: 30px;
     color: white;
-    padding-left: 15%;
+    padding-left: 10%;
 }
 
 .want {
@@ -72,7 +71,7 @@ a, h1, p {
 
 .boat img {
     width: 100%;
-    height: 70vh;
+    height: 100vh;
 }
 
 @media screen and (max-width: 1000px) {
