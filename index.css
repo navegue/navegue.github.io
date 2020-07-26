@@ -53,16 +53,14 @@ a, h1, p {
 }
 
 .want {
+    background-color: #40C6B9;
+    width: 40%;
+    border: 0px;
     text-align: center;
-    margin-left: 15%;
-    background-color: #D44A33;
-    color: white;
-    width: 45%;
-    height: 100px;
-    font-size: 70px;
-    border-width: 0px;
-    padding-left: 0;
-    padding-right: 0;
+}
+
+.want img {
+    width: 100%;
 }
 
 .experience img {
