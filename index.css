@@ -122,19 +122,31 @@ a, h1, p {
     margin-bottom: 4%;
 }
 
-/* Sobre */
-.about {
-    padding-top: 15%;
+/* Equipe */
+#team {
+    padding-top: 3%;
     background-color: #54afe2;
+    padding-bottom: 3%;
 }
 
-.about img {
-    width: 100%;
+#team p {
+    color: white;
+    font-size: 20px;
 }
 
-.about p {
-    font-size: 25px;
-    padding-left: 25%;
+#team img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+
+}
+
+.person {
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 /* Parceiros */
