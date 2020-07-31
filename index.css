@@ -45,11 +45,11 @@ a, h1, p {
 
 .description p {
     text-align: justify;
-    padding: 15vh 0;
+    padding: 10vh 0;
     font-size: 25px;
     color: white;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .want {
@@ -102,7 +102,7 @@ a, h1, p {
 /* Prêmios */
 .awards {
     padding-top: 5%;
-    background-color: grey;
+    background-color: #2835b8;
     text-align: center;
     padding-bottom: 5%;
 }
@@ -125,7 +125,7 @@ a, h1, p {
 /* Equipe */
 #team {
     padding-top: 3%;
-    background-color: #54afe2;
+    background-color: #40C6B9;
     padding-bottom: 3%;
 }
 
