@@ -1,41 +1,23 @@
 html {
     margin: 0px !important;
-    background-color: white;
+    background-color: #40C6B9;
 }
 
 body {
     font-family: 'Cuprum';
     overflow-x: hidden;
-    background-color: #54afe2;
+    background-color: #40C6B9;
 }
 
 a, h1, p {
     color: white;
     text-decoration: none !important;
+    font-family: 'Millimetre';
 }
 
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
-}
-
-/* Introdução */
-.intro {
-    background-color: #54afe2;
-    color: white;
-    margin-left: 3%;
-}
-
-.intro img {
-    margin-top: 5%;
-    max-width: 80%;
-    height: 100px;
-}
-
-.intro h1 {
-    margin-top: 2%;
-    margin-left: 1%;
-    font-size: 120px;
 }
 
 /* Início */
@@ -46,126 +28,60 @@ a, h1, p {
 
 .description {
     width: 100%;
-    background-color: #54afe2;
-    padding-left: 2%;
-    padding-right: 2%;
-    text-align: left;
-    vertical-align: middle;
+    background-color: #40C6B9;
     margin-bottom: 5%;
-    margin-left: 4%;
+}
+
+.intro {
+    padding-top: 5%;
+    background-color: #40C6B9;
+    color: white;
+    text-align: center;
+}
+
+.intro img {
+    margin-top: 5%;
+    max-width: 80%;
 }
 
 .description p {
-    font-size: 35px;
+    text-align: justify;
+    padding: 7vh 0;
+    font-size: 25px;
     color: white;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .want {
+    background-color: #40C6B9;
+    width: 40%;
+    border: 0px;
     text-align: center;
-    margin-left: 1%;
-    background-color: #D44A33;
-    color: white;
-    width: 45%;
-    height: 100px;
-    font-size: 70px;
-    border-width: 0px;
-    padding-left: 0;
-    padding-right: 0;
 }
 
-.boat img {
-    margin-top: -10%;
-    margin-left: -10%;
-    width: 100%;
-    height: 60vh;
-}
-
-@media screen and (max-width: 1000px) {
-    .intro h1 {
-        margin-top: 2%;
-        margin-left: 10px;
-        font-size: 42px;
-    }
-
-    .description {padding-top: 4%}
-    
-    .description p {
-        margin-left: 15px;
-        margin-right: 15px;
-        font-size: 30px;
-    }
-
-    .want {
-        margin-left: 15px;
-        font-size: 35px;
-    }
-    
-    .boat {display: none;}
-}
-
-@media screen and (max-height: 500px) {
-    .boat {display: none;}
-}
-
-@media screen and (min-width: 1380px) {
-    .description {margin-top: 2%;}
-}
-
-/* Sobre */
-.about {
-    padding-top: 15%;
-    background-color: #54afe2;
-}
-
-.about img {
+.want img {
     width: 100%;
 }
 
-.about p {
-    font-size: 25px;
-    padding-left: 25%;
+.experience {
+    padding-right: 0px;
+    text-align: center;
 }
 
-.about.two p {
-    margin-top: 25%;
-    padding-left: 0px;
+.experience img {
+    max-width: 100%;
+    height: 100vh;
 }
 
-@media screen and (max-width: 767px) {
-    .align-two {text-align: center;}
-}
-
-.about-two-img {
-    width: 30vw !important;
-    max-height: 75vh;
-}
-
-.three {
-    padding-top: 0px;
-    padding-bottom: 5%;
-}
-
-.about.three p {
-    padding-left: 0px;
-}
-
-/* Parceiros */
-#partners {
-    background-color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-#partners img {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    height: 50px;
+@media screen and (max-width: 1023px) {
+    .experience {display: none;}
 }
 
 /* Prêmios */
 .awards {
     padding-top: 5%;
-    background-color: grey;
+    background-color: #2835b8;
     text-align: center;
     padding-bottom: 5%;
 }
@@ -183,4 +99,45 @@ a, h1, p {
 .title {
     color: white;
     margin-bottom: 4%;
+}
+
+/* Equipe */
+#team {
+    padding-top: 3%;
+    background-color: #40C6B9;
+    padding-bottom: 3%;
+}
+
+#team p {
+    color: white;
+    font-size: 20px;
+}
+
+#team img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+
+}
+
+.person {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* Parceiros */
+#partners {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#partners img {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 50px;
+    margin-top: 10px;
 }
